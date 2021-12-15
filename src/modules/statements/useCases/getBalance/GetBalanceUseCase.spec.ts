@@ -9,7 +9,7 @@ let usersRepositoryInMemory: InMemoryUsersRepository
 let statementsRepositoryInMemory: InMemoryStatementsRepository
 let getBalanceUseCase: GetBalanceUseCase
 
-describe('Create statement use case', () => {
+describe('Get balance use case', () => {
   beforeEach(() => {
     usersRepositoryInMemory = new InMemoryUsersRepository()
     statementsRepositoryInMemory = new InMemoryStatementsRepository()
